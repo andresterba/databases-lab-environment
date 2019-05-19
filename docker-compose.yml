@@ -25,7 +25,7 @@ services:
       - PGADMIN_DEFAULT_PASSWORD=secretpassword
       - PGADMIN_ENABLE_TLS
       - PGADMIN_LISTEN_PORT=5050
-      
-  volumes:
-    pgdata:
+
+volumes:
+  pgdata:
   
