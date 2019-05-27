@@ -21,7 +21,7 @@ In order to use the environment, execute the following commands in the local fol
 
 ### Start the Environment
 ````
-docker-compose up
+docker-compose up --build -d
 ````
 Will start the environment. The first time (or after you removed them from your system) the containers will be created, downloaded to your system and started. 
 Once the containers have started, you find the pgAdmin4 interface at [http://localhost:5050](http://localhost:5050). Use the following credentials to login:
